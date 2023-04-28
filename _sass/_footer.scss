@@ -1,6 +1,7 @@
 .footer {
   margin-top: 5rem;
   margin-bottom: 2rem;
+  
   a {
     color: $kv-color--green-600;
     &.link-social {
@@ -10,7 +11,7 @@
       &-calendar,
       &-slack,
       &-youtube {
-        color: $kv-color--black-400;
+        color: rgba(255, 255, 255, .75);
         @media (max-width: 576px) {
           font-size: 2rem;
         }
